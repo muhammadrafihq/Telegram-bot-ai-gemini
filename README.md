@@ -39,21 +39,21 @@ Before you start, make sure you have the following:
 
 Clone the repository to your local machine:
 
-\`\`\`bash
-git clone https://github.com/your-username/telegram-bot-generative-ai.git
-cd telegram-bot-generative-ai
-\`\`\`
+
+`git clone https://github.com/your-username/telegram-bot-generative-ai.git`
+
+`cd telegram-bot-generative-ai`
 
 ### Step 4: Configure Environment Variables
 
 Create a `.env` file in the root directory of the project and add your Telegram bot token and Google API key:
 
-\`env
-TELEGRAM_BOT_TOKEN=your-telegram-bot-token
-API_KEY=your-google-api-key
-\`
+`.env`
+`TELEGRAM_BOT_TOKEN=your-telegram-bot-token`
+`API_KEY=your-google-api-key`
 
-Replace \`your-telegram-bot-token\` and \`your-google-api-key\` with the actual values you obtained from BotFather and Google.
+
+Replace `your-telegram-bot-token` and `your-google-api-key` with the actual values you obtained from BotFather and Google.
 
 ## Installation
 
@@ -61,17 +61,14 @@ Replace \`your-telegram-bot-token\` and \`your-google-api-key\` with the actual 
 
 Run the following command to install the required packages:
 
-\`bash
-npm install
-\`
+
+`npm install`
 
 ### Step 2: Install TypeScript (if not already installed)
 
 If you're using TypeScript and it isn't already installed globally, run:
 
-\`bash
-npm install -g typescript
-\`
+`npm install -g typescript`
 
 ## Running the Bot
 
@@ -79,19 +76,16 @@ npm install -g typescript
 
 If you're using TypeScript, compile the TypeScript files to JavaScript:
 
-\`bash
-tsc
-\`
+
+`tsc`
 
 ### Step 2: Start the Bot
 
 Run the following command to start the bot:
 
-\`bash
-node dist/index.js
-\`
+`node dist/index.js`
 
-Make sure to replace \`dist/index.js\` with the actual path to your compiled JavaScript file.
+Make sure to replace `dist/index.js` with the actual path to your compiled JavaScript file.
 
 
 
