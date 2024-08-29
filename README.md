@@ -7,11 +7,7 @@ This project is a Telegram bot that integrates with Google Generative AI to proc
 - [Setup](#setup)
 - [Installation](#installation)
 - [Running the Bot](#running-the-bot)
-- [Usage](#usage)
-- [Features](#features)
-- [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
